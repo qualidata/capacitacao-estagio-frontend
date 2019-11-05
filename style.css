@@ -1,0 +1,49 @@
+:root {
+  --cl-background: #fbfbfb;
+  --cl-light: #faecf3;
+  --cl-text: #383d3b;
+  --cl-item: #5c5d8d;
+  --cl-item-bg: #f0f0f4;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+html {
+  color: var(--cl-text);
+  background-color: var(--cl-background);
+}
+
+.conteudo {
+  width: 60%;
+}
+
+.form {
+  display: flex;
+}
+
+.form__input {
+  padding: 0.2em 0.4em;
+  margin: 0.1em;
+}
+
+.form__submit {
+  margin: 0.1em;
+}
+
+.repositorios {
+  padding: 0;
+}
+
+.repositorios li {
+  color: var(--cl-item);
+  padding: 0.5em;
+  margin-bottom: 0.2em;
+}
