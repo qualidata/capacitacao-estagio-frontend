@@ -28,19 +28,19 @@ O arquivo _images/pesquisa-realizada.png_ demonstra esta tela com uma pesquisa r
 
 > É recomendado que o candidato solucione os problemas na ordem em que se apresentam.
 
-### main.js
-
-1. O arquivo _main.js_ não foi vinculado ao documento HTML. Você deverá efetuar este vínculo antes de começar.
-
-2. A pesquisa de repositórios não está funcionando! O método _pesquisar_ associado ao evento _submit_ do formulário possui dois erros de sintaxe que precisam ser corrigidos.
-
-3. Quando a busca é realizada, a mensagem **"Carregando..."** continua aparecendo como primeiro elemento da lista de resultados. Isto é um _bug_, a mensagem **"Carregando..."** deverá ser removida da lista de resultados quando a pesquisa for concluída.
-
 ### index.html
 
 1. O título do documento poderá apresentar carateres estranhos na palavra **estagiário** bem como todos os outros locais do documento que possuam texto com acentuação. Você deverá indicar o correto charset do arquivo para que isto não ocorra.
 
-2. É esperado que a pesquisa seja realizada ao clicar no botão **"Pesquisar"** e também ao pressionar **enter** no teclado. Nos dois casos o fomulário deverá ser submetido. Há alguma coisa errada nos elementos do **form** porque a pesquisa não está sendo realizada ao pressionar o botão **"Pesquisar"** apesar de funcionar ao pressionar **enter**. Você deverá ajustar isso.
+2. O arquivo _main.js_ não foi vinculado ao documento HTML. Você deverá efetuar este vínculo antes de começar.
+
+3. É esperado que a pesquisa seja realizada ao clicar no botão **"Pesquisar"** e também ao pressionar **enter** no teclado. Nos dois casos o fomulário deverá ser submetido. Há alguma coisa errada nos elementos do **form** porque a pesquisa não está sendo realizada ao pressionar o botão **"Pesquisar"** apesar de funcionar ao pressionar **enter**. Você deverá ajustar isso.
+
+### main.js
+
+1. A pesquisa de repositórios não está funcionando! O método _pesquisar_ associado ao evento _submit_ do formulário possui dois erros de sintaxe que precisam ser corrigidos.
+
+2. Quando a busca é realizada, a mensagem **"Carregando..."** continua aparecendo como primeiro elemento da lista de resultados. Isto é um _bug_, a mensagem **"Carregando..."** deverá ser removida da lista de resultados quando a pesquisa for concluída.
 
 ### style.css
 
